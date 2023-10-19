@@ -1,0 +1,19 @@
+id,cost,power,attribute,counter,effect,trigger_effect,color,category,name,life,number,rarity,type
+1,,5000,Strike,,[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.,,Red,Leader,Monkey.D.Luffy,5,ST01-001,L,Supernovas/Straw Hat Crew
+2,2,2000,Ranged,1000,[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.,[Trigger] Play this card.,Red,Character,Usopp,,ST01-002,C,Straw Hat Crew
+3,1,3000,Strike,1000,,,Red,Character,Karoo,,ST01-003,C,Animal/Alabasta
+4,2,4000,Strike,,[DON!! x2] This Character gains [Rush]. (This card can attack on the turn in which it is played.),,Red,Character,Sanji,,ST01-004,C,Straw Hat Crew
+5,3,5000,Strike,,[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.,,Red,Character,Jinbe,,ST01-005,C,Fish-Man/Straw Hat Crew
+6,1,1000,Strike,,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",,Red,Character,Tony Tony.Chopper,,ST01-006,C,Animal/Straw Hat Crew
+7,1,1000,Special,1000,[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.,,Red,Character,Nami,,ST01-007,C,Straw Hat Crew
+8,3,5000,Wisdom,1000,,,Red,Character,Nico Robin,,ST01-008,C,Straw Hat Crew
+9,2,4000,Slash,1000,,,Red,Character,Nefeltari Vivi,,ST01-009,C,Alabasta
+10,4,6000,Strike,1000,,,Red,Character,Franky,,ST01-010,C,Straw Hat Crew
+11,2,3000,Slash,2000,[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.,,Red,Character,Brook,,ST01-011,C,Straw Hat Crew
+12,5,6000,Strike,,"[Rush] (This card can attack on the turn in which it is played.)
+[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",,Red,Character,Monkey.D.Luffy,,ST01-012,SR,Supernovas/Straw Hat Crew
+13,3,5000,Slash,,[DON!! x1] This Character gains +1000 power.,,Red,Character,Roronoa Zoro,,ST01-013,SR,Supernovas/Straw Hat Crew
+14,1,,,,[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle.,[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.,Red,Event,Guard Point,,ST01-014,C,Animal/Straw Hat Crew
+15,4,,,,[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less.,[Trigger] Activate this card's [Main] effect.,Red,Event,Gum-Gum Jet Pistol,,ST01-015,C,Supernovas/Straw Hat Crew
+16,1,,,,[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn.,[Trigger] K.O. up to 1 of your opponent's [Blocker] Characters with a cost of 3 or less.,Red,Event,Diable Jambe,,ST01-016,C,Straw Hat Crew
+17,2,,,,[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn.,,Red,Stage,Thousand Sunny,,ST01-017,C,Straw Hat Crew

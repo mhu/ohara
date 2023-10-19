@@ -1,0 +1,33 @@
+services:
+  web:
+    image: ohara-frontend
+    ports:
+      - "3000:3000"
+
+  backend:
+    image: ohara-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "8080:8080"
+
+volumes:
+  pgdata:
