@@ -88,7 +88,7 @@ def _split_string_to_components(input_string) -> dict:
     return dict(components)
 
 
-def _create_filters(filter_string) -> list:
+def _create_filters(filter_string: str) -> list:
     components = _split_string_to_components(filter_string)
     filters = []
 
@@ -127,8 +127,11 @@ def _create_filters(filter_string) -> list:
     return filters
 
 
+PAGE_SIZE = 20
+
+
 @app.get("/cards")
-def read_cards(filter: str = None, response_model=list[CardSchema]):
+def read_cards(page: int, filter: str = None, response_model=list[CardSchema]):
     session = Session(engine)
 
     query = session.query(Card)
@@ -143,6 +146,7 @@ def read_cards(filter: str = None, response_model=list[CardSchema]):
             for f in filters:
                 query = query.filter(f)
 
-    cards = query.all()
+    cards = query.limit(PAGE_SIZE).offset((page - 1) * PAGE_SIZE).all()
+    num_pages = query.count() // PAGE_SIZE + 1
 
-    return cards
+    return {"cards": cards, "page": page, "num_pages": num_pages}

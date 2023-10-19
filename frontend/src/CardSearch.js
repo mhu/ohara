@@ -17,7 +17,7 @@ function CardSearch() {
 
     try {
       const response = await axios.get(
-        `http://localhost:8000/cards?filter=${searchTerm}`
+        `http://localhost:8000/cards?page=1&filter=${searchTerm}`
       );
 
       const data = response.data;
