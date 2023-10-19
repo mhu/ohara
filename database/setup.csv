@@ -1,19 +1,150 @@
-id,cost,power,attribute,counter,effect,trigger_effect,color,category,name,life,number,rarity,type
-1,,5000,Strike,,[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.,,Red,Leader,Monkey.D.Luffy,5,ST01-001,L,Supernovas/Straw Hat Crew
-2,2,2000,Ranged,1000,[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.,[Trigger] Play this card.,Red,Character,Usopp,,ST01-002,C,Straw Hat Crew
-3,1,3000,Strike,1000,,,Red,Character,Karoo,,ST01-003,C,Animal/Alabasta
-4,2,4000,Strike,,[DON!! x2] This Character gains [Rush]. (This card can attack on the turn in which it is played.),,Red,Character,Sanji,,ST01-004,C,Straw Hat Crew
-5,3,5000,Strike,,[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.,,Red,Character,Jinbe,,ST01-005,C,Fish-Man/Straw Hat Crew
-6,1,1000,Strike,,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",,Red,Character,Tony Tony.Chopper,,ST01-006,C,Animal/Straw Hat Crew
-7,1,1000,Special,1000,[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.,,Red,Character,Nami,,ST01-007,C,Straw Hat Crew
-8,3,5000,Wisdom,1000,,,Red,Character,Nico Robin,,ST01-008,C,Straw Hat Crew
-9,2,4000,Slash,1000,,,Red,Character,Nefeltari Vivi,,ST01-009,C,Alabasta
-10,4,6000,Strike,1000,,,Red,Character,Franky,,ST01-010,C,Straw Hat Crew
-11,2,3000,Slash,2000,[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.,,Red,Character,Brook,,ST01-011,C,Straw Hat Crew
-12,5,6000,Strike,,"[Rush] (This card can attack on the turn in which it is played.)
-[DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",,Red,Character,Monkey.D.Luffy,,ST01-012,SR,Supernovas/Straw Hat Crew
-13,3,5000,Slash,,[DON!! x1] This Character gains +1000 power.,,Red,Character,Roronoa Zoro,,ST01-013,SR,Supernovas/Straw Hat Crew
-14,1,,,,[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle.,[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.,Red,Event,Guard Point,,ST01-014,C,Animal/Straw Hat Crew
-15,4,,,,[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less.,[Trigger] Activate this card's [Main] effect.,Red,Event,Gum-Gum Jet Pistol,,ST01-015,C,Supernovas/Straw Hat Crew
-16,1,,,,[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn.,[Trigger] K.O. up to 1 of your opponent's [Blocker] Characters with a cost of 3 or less.,Red,Event,Diable Jambe,,ST01-016,C,Straw Hat Crew
-17,2,,,,[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn.,,Red,Stage,Thousand Sunny,,ST01-017,C,Straw Hat Crew
+cost,power,attribute,counter,effect,trigger_effect,color,category,name,life,number,rarity,type
+,5000,Strike,,[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.,,Red,Leader,Monkey.D.Luffy,5,ST01-001,L,Supernovas/Straw Hat Crew
+2,2000,Ranged,1000,[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.,[Trigger] Play this card.,Red,Character,Usopp,,ST01-002,C,Straw Hat Crew
+1,3000,Strike,1000,,,Red,Character,Karoo,,ST01-003,C,Animal/Alabasta
+2,4000,Strike,,[DON!! x2] This Character gains [Rush]. (This card can attack on the turn in which it is played.),,Red,Character,Sanji,,ST01-004,C,Straw Hat Crew
+3,5000,Strike,,[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.,,Red,Character,Jinbe,,ST01-005,C,Fish-Man/Straw Hat Crew
+1,1000,Strike,,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",,Red,Character,Tony Tony.Chopper,,ST01-006,C,Animal/Straw Hat Crew
+1,1000,Special,1000,[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.,,Red,Character,Nami,,ST01-007,C,Straw Hat Crew
+3,5000,Wisdom,1000,,,Red,Character,Nico Robin,,ST01-008,C,Straw Hat Crew
+2,4000,Slash,1000,,,Red,Character,Nefeltari Vivi,,ST01-009,C,Alabasta
+4,6000,Strike,1000,,,Red,Character,Franky,,ST01-010,C,Straw Hat Crew
+2,3000,Slash,2000,[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.,,Red,Character,Brook,,ST01-011,C,Straw Hat Crew
+5,6000,Strike,,[Rush] (This card can attack on the turn in which it is played.) [DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.,,Red,Character,Monkey.D.Luffy,,ST01-012,SR,Supernovas/Straw Hat Crew
+3,5000,Slash,,[DON!! x1] This Character gains +1000 power.,,Red,Character,Roronoa Zoro,,ST01-013,SR,Supernovas/Straw Hat Crew
+1,,,,[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle.,[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.,Red,Event,Guard Point,,ST01-014,C,Animal/Straw Hat Crew
+4,,,,[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less.,[Trigger] Activate this card's [Main] effect.,Red,Event,Gum-Gum Jet Pistol,,ST01-015,C,Supernovas/Straw Hat Crew
+1,,,,[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn.,[Trigger] K.O. up to 1 of your opponent's [Blocker] Characters with a cost of 3 or less.,Red,Event,Diable Jambe,,ST01-016,C,Straw Hat Crew
+2,,,,[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn.,,Red,Stage,Thousand Sunny,,ST01-017,C,Straw Hat Crew
+,5000,Special,,[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Set this Leader as active.,,Green,Leader,"Eustass""Captain""Kid",5,ST02-001,L,Supernovas/Kid Pirates
+3,5000,Ranged,1000,,,Green,Character,Vito,,ST02-002,C,Firetank Pirates
+2,3000,Strike,1000,"[DON!! x1] If you have 3 or more Characters, this card gains +2000 power.",,Green,Character,Urouge,,ST02-003,C,Supernovas/Fallen Monk Pirates
+1,1000,Special,,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",,Green,Character,"Capone""Gang""Bege",,ST02-004,C,Supernovas/Firetank Pirates
+3,3000,Slash,1000,[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.,[Trigger] Play this card.,Green,Character,Killer,,ST02-005,C,Supernovas/Kid Pirates
+4,6000,Strike,1000,,,Green,Character,Koby,,ST02-006,C,Navy
+1,1000,Special,1000,"[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",,Green,Character,Jewelry Bonney,,ST02-007,C,Supernovas/Bonney Pirates
+2,3000,Ranged,2000,[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.,,Green,Character,Scratchmen Apoo,,ST02-008,C,Supernovas/On-Air Pirates
+5,6000,Slash,1000,[On Play] Set up to 1 of your {Supernovas} or {Heart Pirates} type rested Characters with a cost of 5 or less as active.,,Green,Character,Trafalgar Law,,ST02-009,SR,Supernovas/Heart Pirates
+5,6000,Slash,,"[DON!! x1] [Once Per Turn] [Your Turn] If this Character battles your opponent's Character, set this card as active.",,Green,Character,Basil Hawkins,,ST02-010,C,Supernovas/Hawkins Pirates
+2,4000,Special,1000,,,Green,Character,Heat,,ST02-011,C,Kid Pirates
+1,3000,Strike,1000,,,Green,Character,Bepo,,ST02-012,C,Minks/Heart Pirates
+7,7000,Special,,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [End of Your Turn] Set this Character as active.",,Green,Character,"Eustass""Captain""Kid",,ST02-013,SR,Supernovas/Kid Pirates
+4,5000,Slash,1000,"[DON!! x1] [Your Turn] If this Character is rested, your {Supernovas} or {Navy} type Leaders and Characters gain +1000 power.",,Green,Character,X.Drake,,ST02-014,C,Navy/Supernovas/Drake Pirates
+1,,,,"[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active.",[Trigger] Set up to 2 of your DON!! cards as active.,Green,Event,Scalpel,,ST02-015,C,Supernovas/Heart Pirates
+2,,,,"[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your DON!! cards as active.",,Green,Event,Repel,,ST02-016,C,Supernovas/Kid Pirates
+2,,,,[Main] Rest up to 1 of your opponent's Characters.,[Trigger] Play up to 1 {Supernovas} type card with a cost of 2 or less from your hand.,Green,Event,Straw Sword,,ST02-017,C,Supernovas/Hawkins Pirates
+2,4000,Wisdom,1000,,,Purple,Character,Dr. Indigo,,ST05-015,C,FILM/Scientist/Golden Lion Pirates
+,5000,Special,,[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.,,Blue,Leader,Crocodile,5,ST03-001,L,The Seven Warlords of the Sea/Baroque Works
+3,5000,Slash,1000,,,Blue,Character,Edward Weevil,,ST03-002,C,The Seven Warlords of the Sea
+5,6000,Special,,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",,Blue,Character,Crocodile,,ST03-003,SR,The Seven Warlords of the Sea/Baroque Works
+4,5000,Special,1000,[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.,,Blue,Character,Gecko Moria,,ST03-004,C,The Seven Warlords of the Sea/Thriller Bark Pirates
+4,5000,Slash,2000,[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.,,Blue,Character,Dracule Mihawk,,ST03-005,C,The Seven Warlords of the Sea
+2,4000,Strike,1000,,,Blue,Character,Jinbe,,ST03-006,C,Fish-Man/The Seven Warlords of the Sea/The Sun Pirates
+3,4000,Slash,1000,"[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.",,Blue,Character,Sentomaru,,ST03-007,C,Navy
+1,1000,Slash,,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",,Blue,Character,Trafalgar Law,,ST03-008,C,The Seven Warlords of the Sea/Heart Pirates
+7,7000,Special,,[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.,,Blue,Character,Donquixote Doflamingo,,ST03-009,SR,The Seven Warlords of the Sea/Donquixote Pirates
+2,3000,Strike,,[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.,[Trigger] Play this card.,Blue,Character,Bartholomew Kuma,,ST03-010,C,The Seven Warlords of the Sea/Revolutionary Army
+1,3000,Slash,1000,,,Blue,Character,Buggy,,ST03-011,C,The Seven Warlords of the Sea/Buggy's Delivery
+4,6000,Special,1000,,,Blue,Character,Pacifista,,ST03-012,C,Biological Weapon/Navy
+3,1000,Special,1000,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",[Trigger] Play this card.,Blue,Character,Boa Hancock,,ST03-013,C,The Seven Warlords of the Sea/Kuja Pirates
+4,4000,Special,1000,[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand.,,Blue,Character,Marshall.D.Teach,,ST03-014,C,The Seven Warlords of the Sea/Blackbeard Pirates
+4,,,,[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand.,[Trigger] Activate this card's [Main] effect.,Blue,Event,Sables,,ST03-015,C,The Seven Warlords of the Sea/Baroque Works
+2,,,,[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand.,[Trigger] Activate this card's [Counter] effect.,Blue,Event,Thrust Pad Cannon,,ST03-016,C,The Seven Warlords of the Sea/Revolutionary Army
+2,,,,"[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.",,Blue,Event,Love-Love Mellow,,ST03-017,C,The Seven Warlords of the Sea/Kuja Pirates
+3,5000,Strike,1000,,,Yellow,Character,Pekoms,,ST07-014,C,Minks/Big Mom Pirates
+,5000,Strike,,[Activate: Main] [Once Per Turn] DON!! −7 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Trash up to 1 of your opponent's Life cards.,,Purple,Leader,Kaido,5,ST04-001,L,The Four Emperors/Animal Kingdom Pirates
+4,5000,Strike,2000,[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Page One] card with a cost of 4 or less from your hand.,,Purple,Character,Ulti,,ST04-002,C,Animal Kingdom Pirates
+9,10000,Strike,,[On Play] DON!! −5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.),,Purple,Character,Kaido,,ST04-003,SR,The Four Emperors/Animal Kingdom Pirates
+6,7000,Special,,[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 4 or less.,,Purple,Character,King,,ST04-004,SR,Animal Kingdom Pirates
+5,6000,Strike,1000,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",,Purple,Character,Queen,,ST04-005,C,Animal Kingdom Pirates
+3,4000,Ranged,1000,[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 1 card.,,Purple,Character,Sasaki,,ST04-006,C,Animal Kingdom Pirates
+2,4000,Slash,1000,,,Purple,Character,Sheepshead,,ST04-007,C,Animal Kingdom Pirates/Smile
+3,4000,Strike,1000,[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and set it as active.,,Purple,Character,Jack,,ST04-008,C,Animal Kingdom Pirates
+1,3000,Strike,1000,,,Purple,Character,Ginrummy,,ST04-009,C,Animal Kingdom Pirates/Smile
+3,3000,Slash,,[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.,[Trigger] Play this card.,Purple,Character,Who's.Who,,ST04-010,C,Animal Kingdom Pirates
+2,2000,Special,1000,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",,Purple,Character,Black Maria,,ST04-011,C,Animal Kingdom Pirates
+4,6000,Strike,1000,,,Purple,Character,Page One,,ST04-012,C,Animal Kingdom Pirates
+3,5000,Slash,1000,,,Purple,Character,X.Drake,,ST04-013,C,Navy/Drake Pirates/Animal Kingdom Pirates
+4,,,,"[Main] Draw 1 card, then add up to 1 DON!! card from your DON!! deck and set it as active.",[Trigger] Activate this card's [Main] effect.,Purple,Event,"Lead Performer ""Disaster""",,ST04-014,C,Animal Kingdom Pirates
+6,,,,"[Main] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.,Purple,Event,Brachio Bomber,,ST04-015,C,Animal Kingdom Pirates
+1,,,,[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +4000 power during this battle.,,Purple,Event,Blast Breath,,ST04-016,C,The Four Emperors/Animal Kingdom Pirates
+3,,,,"[Activate: Main] You may rest this Stage: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",,Purple,Stage,Onigashima Island,,ST04-017,C,Animal Kingdom Pirates
+,5000,Slash,,[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): All of your {FILM} type Characters gain +2000 power during this turn.,,Purple,Leader,Shanks,5,ST05-001,L,FILM/The Four Emperors/Red-Haired Pirates
+4,5000,Special,,[On Play] Add up to 1 DON!! card from your DON!! deck and rest it.,,Purple,Character,Ain,,ST05-002,C,FILM/Neo Navy
+2,3000,Special,,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",,Purple,Character,Ann,,ST05-003,C,FILM/The Pirates Fest
+4,5000,Special,1000,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less.",,Purple,Character,Uta,,ST05-004,SR,FILM
+2,3000,Wisdom,1000,"[Activate: Main] [Once Per Turn] You may rest this Character and trash 1 {FILM} type card from your hand: If your opponent has more DON!! cards on their field than you, add 2 DON!! cards from your DON!! deck and rest them.",,Purple,Character,Carina,,ST05-005,C,FILM/Grantesoro
+5,6000,Special,,[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards.,,Purple,Character,Gild Tesoro,,ST05-006,C,FILM/Grantesoro
+1,3000,Wisdom,1000,,,Purple,Character,Gordon,,ST05-007,C,FILM
+6,7000,Slash,1000,"If you have 8 or more DON!! cards on your field, this Character cannot be K.O.'d in battle.",,Purple,Character,Shiki,,ST05-008,C,FILM/Golden Lion Pirates
+2,3000,Strike,1000,,[Trigger] Play this card.,Purple,Character,Scarlet,,ST05-009,C,FILM/Animal/Golden Lion Pirates
+7,8000,Strike,,"When this Character battles ＜Strike＞ attribute Characters, this Character gains +3000 power during this turn.[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +2000 power during this turn.",,Purple,Character,Zephyr,,ST05-010,C,FILM/Neo Navy
+8,10000,Special,,"[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 6 or less. Then, this Character gains [Double Attack] during this turn.(This card deals 2 damage.)",,Purple,Character,Douglas Bullet,,ST05-011,SR,FILM/The Pirates Fest
+3,5000,Special,1000,,,Purple,Character,Baccarat,,ST05-012,C,FILM/Grantesoro
+4,6000,Special,1000,,,Purple,Character,Bins,,ST05-013,C,FILM/Neo Navy
+1,,Wisdom,2000,"[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Buena Festa] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",,Purple,Character,Buena Festa,,ST05-014,C,FILM/The Pirates Fest
+3,,,,[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 5 or less.,[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.,Purple,Event,Lion's Threat Imperial Earth Bind,,ST05-016,C,FILM/Golden Lion Pirates
+2,,,,"[Counter] Up to 1 of your {FILM} type Leader or Character cards gains +4000 power during this battle. If that card is a Character, that Character cannot be K.O.'d during this turn.",[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.,Purple,Event,Union Armada,,ST05-017,C,FILM/The Pirates Fest
+,5000,Special,,[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.,,Black,Leader,Sakazuki,5,ST06-001,L,Navy
+1,2000,Strike,1000,[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.,,Black,Character,Koby,,ST06-002,C,Navy
+1,3000,Slash,1000,,,Black,Character,Jango,,ST06-003,C,Navy
+5,7000,Special,,"This Character cannot be K.O.'d by effects.[DON!! x1] If there is a Character with a cost of 0, this Character gains [Double Attack].(This card deals 2 damage.)",,Black,Character,Smoker,,ST06-004,SR,Navy
+5,6000,Wisdom,1000,[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.,,Black,Character,Sengoku,,ST06-005,C,Navy
+3,4000,Slash,2000,[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.,,Black,Character,Tashigi,,ST06-006,C,Navy
+2,2000,Wisdom,1000,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",,Black,Character,Tsuru,,ST06-007,C,Navy
+3,5000,Special,,[On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.,,Black,Character,Hina,,ST06-008,C,Navy
+2,4000,Strike,1000,,,Black,Character,Fullbody,,ST06-009,C,Navy
+2,3000,Slash,1000,[On Play] Give up to 1 of your opponent's Characters −3 cost during this turn.,,Black,Character,Helmeppo,,ST06-010,C,Navy
+4,6000,Slash,1000,,,Black,Character,Momonga,,ST06-011,C,Navy
+5,6000,Strike,,[Activate: Main] You may trash 1 card from your hand and rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.,,Black,Character,Monkey.D.Garp,,ST06-012,SR,Navy
+3,5000,Slash,1000,,,Black,Character,T-Bone,,ST06-013,C,Navy
+2,,,,"[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's active Characters with a cost of 3 or less.",[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.,Black,Event,Shockwave,,ST06-014,C,Navy
+1,,,,"[Main] Draw 1 card. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",[Trigger] Your opponent chooses 1 card from their hand and trashes it.,Black,Event,Great Eruption,,ST06-015,C,Navy
+1,,,,[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle.,[Trigger] Draw 1 card and none of your Characters can be K.O.'d during this turn.,Black,Event,White Out,,ST06-016,C,Navy
+1,,,,"[On Play] Give up to 1 of your opponent's Characters −1 cost during this turn.[Activate: Main] You may rest this Stage: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −1 cost during this turn.",,Black,Stage,Navy HQ,,ST06-017,C,Navy
+,5000,Special,,"[DON!! x2] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: If you have 2 or less Life cards, add up to 1 card from your hand to the top of your Life cards.",,Yellow,Leader,Charlotte Linlin,5,ST07-001,L,The Four Emperors/Big Mom Pirates
+1,3000,Wisdom,1000,,,Yellow,Character,Charlotte Anana,,ST07-002,C,Big Mom Pirates
+4,6000,Strike,,"[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, if you have less Life cards than your opponent, this Character gains [Rush] during this turn.(This card can attack on the turn in which it is played.)",,Yellow,Character,Charlotte Katakuri,,ST07-003,SR,Big Mom Pirates
+5,6000,Slash,,"[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains [Banish] and +1000 power during this battle.(When this card deals damage, the target card is trashed without activating its Trigger.)",,Yellow,Character,Charlotte Snack,,ST07-004,C,Big Mom Pirates
+4,5000,Slash,1000,[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.,,Yellow,Character,Charlotte Daifuku,,ST07-005,C,Big Mom Pirates
+2,4000,Ranged,1000,,,Yellow,Character,Charlotte Flampe,,ST07-006,C,Big Mom Pirates
+3,1000,Special,1000,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",[Trigger] Play this card.,Yellow,Character,Charlotte Brulee,,ST07-007,C,Big Mom Pirates
+2,3000,Wisdom,2000,"[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",,Yellow,Character,Charlotte Pudding,,ST07-008,C,Big Mom Pirates
+3,4000,Special,1000,[Activate: Main] You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.,[Trigger] You may trash 1 card from your hand: Play this card.,Yellow,Character,Charlotte Mont-d'or,,ST07-009,C,Big Mom Pirates
+7,8000,Special,,[On Play] Your opponent chooses one:- Trash 1 card from the top of your opponent's Life cards.- Add 1 card from the top of your deck to the top of your Life cards.,,Yellow,Character,Charlotte Linlin,,ST07-010,SR,The Four Emperors/Big Mom Pirates
+3,3000,Special,1000,"[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Banish] during this turn.(When this card deals damage, the target card is trashed without activating its Trigger.)",[Trigger] Play this card.,Yellow,Character,Zeus,,ST07-011,C,Big Mom Pirates/Homies
+4,6000,Strike,1000,,,Yellow,Character,Baron Tamago,,ST07-012,C,Big Mom Pirates
+3,3000,Special,1000,[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Double Attack] during this turn.(This card deals 2 damage.),[Trigger] Play this card.,Yellow,Character,Prometheus,,ST07-013,C,Big Mom Pirates/Homies
+5,,,,[Main] Your opponent chooses one:- Trash 1 card from the top of your opponent's Life cards.- Add 1 card from the top of your deck to the top of your Life cards.,[Trigger] Activate this card's [Main] effect.,Yellow,Event,Soul Pocus,,ST07-015,C,The Four Emperors/Big Mom Pirates
+1,,,,"[Counter] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, up to 1 of your Leader or Character cards gains +2000 power during this battle.","[Trigger] Draw 1 card, look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",Yellow,Event,Power Mochi,,ST07-016,C,Big Mom Pirates
+2,,,,[Activate: Main] You may rest this Stage and add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 of your Characters with a cost of 3 to the top of the owner's Life cards face-up.,,Yellow,Stage,Queen Mama Chanter,,ST07-017,C,Big Mom Pirates/Homies
+,5000,Strike,,"[Your Turn] When a Character is K.O.'d, give up to 1 rested DON!! card to this Leader.",,Black,Leader,Monkey.D.Luffy,5,ST08-001,L,Straw Hat Crew
+2,3000,Special,,This Character cannot be K.O.'d in battle by Leaders.[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.,,Black,Character,Uta,,ST08-002,SR,FILM
+2,4000,Wisdom,1000,,,Black,Character,Gaimon,,ST08-003,C,East Blue
+4,1000,Strike,1000,[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.,,Black,Character,Koby,,ST08-004,C,Navy
+9,10000,Slash,,[On Play] You may trash 1 card from your hand: K.O. all Characters with a cost of 1 or less.,,Black,Character,Shanks,,ST08-005,SR,Red-Haired Pirates
+4,,Wisdom,1000,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",,Black,Character,Shirahoshi,,ST08-006,C,Merfolk
+3,1000,Slash,1000,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",[Trigger] Play this card.,Black,Character,Nefeltari Vivi,,ST08-007,C,Alabasta
+1,2000,Slash,1000,[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.,,Black,Character,Higuma,,ST08-008,C,Mountain Bandits
+2,,Wisdom,2000,"[On Play] If there is a Character with a cost of 0, draw 1 card.",,Black,Character,Makino,,ST08-009,C,Windmill Village
+5,7000,Strike,1000,,,Black,Character,Monkey.D.Garp,,ST08-010,C,Navy
+3,5000,Strike,1000,,,Black,Character,Monkey.D.Luffy,,ST08-011,C,Straw Hat Crew
+4,6000,Strike,1000,,,Black,Character,Laboon,,ST08-012,C,Animal
+5,6000,Strike,,"[DON!! x1] At the end of a battle in which this Character battles your opponent's Character, you may K.O. the opponent’s Character you battled with. If you do, K.O. this Character.",,Black,Character,Mr.2.Bon.Kurei(Bentham),,ST08-013,C,Former Baroque Works
+2,,,,[Main] You may add 1 card from the top of your Life cards to your hand: Give up to 1 of your opponent's Characters −7 cost during this turn.,[Trigger] Add up to 1 black Character card with a cost of 2 or less from your trash to your hand.,Black,Event,Gum-Gum Bell,,ST08-014,C,Straw Hat Crew
+3,,,,[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.,[Trigger] Draw 1 card.,Black,Event,Gum-Gum Pistol,,ST08-015,C,Straw Hat Crew
+,5000,Strike,,"[DON!! x1] [Opponent's Turn] If you have 2 or less Life cards, this Leader gains +1000 power.",,Yellow,Leader,Yamato,5,ST09-001,L,Land of Wano
+4,5000,Slash,1000,,[Trigger] Rest up to 1 of your opponent's Characters with a cost of 2 or less and add this card to your hand.,Yellow,Character,Uzuki Tempura,,ST09-002,C,Land of Wano
+4,6000,Strike,1000,,,Yellow,Character,Ulti,,ST09-003,C,Animal Kingdom Pirates
+4,5000,Special,1000,"[DON!! x1] If you have 2 or less Life cards, this Character cannot be K.O.'d in battle.",,Yellow,Character,Kaido,,ST09-004,C,The Four Emperors/Animal Kingdom Pirates
+7,7000,Slash,,[DON!! x1] This Character gains [Double Attack].(This card deals 2 damage.)[On K.O.] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.,,Yellow,Character,Kouzuki Oden,,ST09-005,SR,Land of Wano/Kouzuki Clan
+2,4000,Special,1000,,,Yellow,Character,Kouzuki Momonosuke,,ST09-006,C,Land of Wano/Kouzuki Clan
+3,2000,Special,,"[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[On Block] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +4000 power during this battle.",,Yellow,Character,Shinobu,,ST09-007,C,Land of Wano
+5,6000,Slash,,[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 yellow {Land of Wano} type Character card with a cost of 4 or less from your hand.,,Yellow,Character,Shimotsuki Ushimaru,,ST09-008,C,Land of Wano
+3,4000,Slash,1000,,[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 1 or less and add this card to your hand.,Yellow,Character,Fugetsu Omusubi,,ST09-009,C,Land of Wano
+6,7000,Special,,"[Once Per Turn] If this Character would be K.O.'d, you may trash 1 card from the top or bottom of your Life cards instead.",,Yellow,Character,Portgas.D.Ace,,ST09-010,SR,Land of Wano/Whitebeard Pirates
+3,5000,Strike,1000,,,Yellow,Character,Monkey.D.Luffy,,ST09-011,C,Land of Wano/Straw Hat Crew
+3,3000,Strike,2000,[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power until the start of your next turn.,,Yellow,Character,Yamato,,ST09-012,C,Land of Wano
+5,7000,Special,1000,,,Yellow,Character,Yamato,,ST09-013,C,Land of Wano
+1,,,,"[Counter] If you have 2 or less Life cards, give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.,Yellow,Event,Narikabura Arrow,,ST09-014,C,Land of Wano
+2,,,,"[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of the owner's Life cards face-up.",[Trigger] Draw 1 card.,Yellow,Event,Thunder Bagua,,ST09-015,C,Land of Wano

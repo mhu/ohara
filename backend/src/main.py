@@ -120,6 +120,7 @@ def _create_filters(filter_string: str) -> list:
         elif key == "category":
             filters.append(Card.category.ilike(f"%{value}%"))
         elif key == "set":
+            value = value.replace("-", "")
             filters.append(Card.number.ilike(f"{value}%"))
         else:
             raise ValueError(f"Unknown filter: {key}")
