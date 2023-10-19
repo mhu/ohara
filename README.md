@@ -2,6 +2,8 @@
 
 Ohara is an advanced search tool for the [One Piece TCG](https://en.onepiece-cardgame.com/).
 
+This repository is a monorepo containing the code for the [frontend](frontend/README.md) (using React and Tailwind CSS), the [backend](backend/README.md) (using FastAPI, Pydantic and SQLAlchemy) and the [database](database/README.md) (using PostgreSQL) of the application.
+
 ## Installation
 
 Clone the GitHub repository:
