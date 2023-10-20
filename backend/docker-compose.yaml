@@ -9,7 +9,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./src:/app/src
+      - ./app:/app
     environment:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
 
