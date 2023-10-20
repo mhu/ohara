@@ -56,9 +56,13 @@ function CardDetail() {
               </div>
 
               <div class="border-t mt-2 pt-2" />
+              <div class="flex justify-center">
+                <span>{card.card_type}</span>
+              </div>
+
+              <div class="border-t mt-2 pt-2" />
               <div class="flex justify-between">
                 <span>{card.color}</span>
-                <span>{card.card_type}</span>
                 <span>{card.number}</span>
                 <span>{card.rarity}</span>
               </div>

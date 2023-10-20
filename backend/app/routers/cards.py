@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from models.card import Card, CardSchema
+from app.models.card import Card, CardSchema
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 import os
@@ -59,21 +59,14 @@ def _split_string_to_components(input_string: str) -> dict:
 def _get_full_color_name(color: str) -> str:
     color = color.lower()
 
-    if color == "r":
-        return "red"
-    elif color == "g":
-        return "green"
-    elif color == "u":
-        return "blue"
-    elif color == "b":
-        return "black"
-    elif color == "p":
-        return "purple"
-    elif color == "y":
-        return "yellow"
-
-    else:
-        raise ValueError(f"Unknown color: {color}")
+    return (
+        color.replace("r", "red")
+        .replace("g", "green")
+        .replace("u", "blue")
+        .replace("b", "black")
+        .replace("p", "purple")
+        .replace("y", "yellow")
+    )
 
 
 def _create_filters(filter_string: str) -> list:
